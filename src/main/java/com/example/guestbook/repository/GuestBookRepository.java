@@ -1,4 +1,7 @@
 package com.example.guestbook.repository;
 
-public interface GuestBookRepository {
+import com.example.guestbook.entity.GuestBookEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GuestBookRepository extends JpaRepository<GuestBookEntity, Long> {
 }
