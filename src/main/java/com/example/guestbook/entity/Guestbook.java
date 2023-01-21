@@ -10,7 +10,8 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class GuestBookEntity extends BaseEntity {
+//@Table(name = "guestbook")
+public class Guestbook extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
